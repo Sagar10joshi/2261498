@@ -1,6 +1,8 @@
 // Logging Middleware/logMiddleware.js
 import dotenv from 'dotenv';
-dotenv.config();
+dotenv.config({
+    path: "./.env"
+})
 
 import { Log as sendLog } from './logger.js';
 
