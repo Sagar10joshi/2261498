@@ -1,5 +1,5 @@
 {
-  "name": "backend-assessment",
+  "name": "logging-middleware",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
