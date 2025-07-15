@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import { v4 as uuidv4 } from 'uuid';
-import { Log } from '../Logging Middleware/logger.js'; 
+import { Log } from '../Logging Middleware/Log.js'; 
 
 const app = express();
 
