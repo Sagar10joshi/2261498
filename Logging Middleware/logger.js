@@ -1,4 +1,3 @@
-// import fetch from "node-fetch";
 
 export async function Log(stack, level, packageName, message, token) {
   const response = await fetch("http://20.244.56.144/evaluation-service/logs", {
@@ -18,3 +17,4 @@ export async function Log(stack, level, packageName, message, token) {
   const data = await response.json();
   console.log("Log response:", data);
 }
+// export {Log}
